@@ -1,0 +1,25 @@
+{
+    "Map/SizeTest": {
+        "height": 4300,
+        "width": 2
+    },
+    "activeFile": "",
+    "expandedProjectPaths": [
+    ],
+    "file.lastUsedOpenFilter": "All Files (*)",
+    "fileStates": {
+        "showcase_final.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        }
+    },
+    "last.imagePath": "C:/Projekty/PyGame_TUTORIAL/05_TILED_MAPS/tmxs/Asset_03",
+    "map.lastUsedFormat": "tmx",
+    "openFiles": [
+    ],
+    "project": "Platformer_v1.tiled-project",
+    "recentFiles": [
+        "showcase_final.tsx"
+    ],
+    "tileset.lastUsedFormat": "tsx"
+}
