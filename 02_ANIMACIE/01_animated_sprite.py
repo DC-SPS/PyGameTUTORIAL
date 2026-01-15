@@ -12,7 +12,7 @@ FPS = 60
 BG = (0, 0, 0)
 
 # Load sprite sheet once
-sheet = pygame.image.load('02_ANIMACIE\img\Lightning.png').convert_alpha()
+sheet = pygame.image.load('PyGameTUTORIAL/02_ANIMACIE/img/Lightning.png').convert_alpha()
 shipX, shipY = 400, 300
 isShooting = False
 SHIP_W, SHIP_H = 64, 64
