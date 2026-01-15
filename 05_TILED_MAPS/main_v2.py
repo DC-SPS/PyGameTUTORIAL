@@ -14,12 +14,12 @@ def load_img(path, size=(WIDTH, HEIGHT)):
     return pygame.transform.scale(img, size)
 
 # --- NAČÍTANIE GRAFIKY (Assety) ---
-sky = load_img("05_TILED_MAPS/imgs/sky_solid_color.png")
-clouds = load_img("05_TILED_MAPS/imgs/clouds.png")
-mtn_far = load_img("05_TILED_MAPS/imgs/mountain_depth_z_1.png")
-mtn_near = load_img("05_TILED_MAPS/imgs/mountain_depth_z_2.png")
+sky = load_img("PyGameTUTORIAL/05_TILED_MAPS/imgs/sky_solid_color.png")
+clouds = load_img("PyGameTUTORIAL/05_TILED_MAPS/imgs/clouds.png")
+mtn_far = load_img("PyGameTUTORIAL/05_TILED_MAPS/imgs/mountain_depth_z_1.png")
+mtn_near = load_img("PyGameTUTORIAL/05_TILED_MAPS/imgs/mountain_depth_z_2.png")
 # Tileset pre hráča alebo platformy (použijeme kúsok z neho)
-tileset = pygame.image.load("05_TILED_MAPS/imgs/pixel_platform_03_tileset_final.png").convert_alpha()
+tileset = pygame.image.load("PyGameTUTORIAL/05_TILED_MAPS/imgs/pixel_platform_03_tileset_final.png").convert_alpha()
 
 # --- HRÁČ A FYZIKA ---
 player_rect = pygame.Rect(100, 400, 40, 40)

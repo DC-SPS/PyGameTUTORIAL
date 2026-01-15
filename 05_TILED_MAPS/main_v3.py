@@ -15,15 +15,15 @@ def load_img(path, size=(WIDTH, HEIGHT)):
     return pygame.transform.scale(img, size)
 
 # --- NAČÍTANIE GRAFIKY (Assety) ---
-sky = load_img("05_TILED_MAPS/imgs/sky_solid_color.png")
-clouds = load_img("05_TILED_MAPS/imgs/clouds.png")
-mtn_far = load_img("05_TILED_MAPS/imgs/mountain_depth_z_1.png")
-mtn_near = load_img("05_TILED_MAPS/imgs/mountain_depth_z_2.png")
+sky = load_img("PyGameTUTORIAL/05_TILED_MAPS/imgs/sky_solid_color.png")
+clouds = load_img("PyGameTUTORIAL/05_TILED_MAPS/imgs/clouds.png")
+mtn_far = load_img("PyGameTUTORIAL/05_TILED_MAPS/imgs/mountain_depth_z_1.png")
+mtn_near = load_img("PyGameTUTORIAL/05_TILED_MAPS/imgs/mountain_depth_z_2.png")
 
 # --- NAČÍTANIE MAPY ---
 try:
     # Načítame vašu mapu Map_v1.tmx 
-    tmx_data = pytmx.load_pygame("05_TILED_MAPS/tmxs/Map_v1.tmx")
+    tmx_data = pytmx.load_pygame("PyGameTUTORIAL/05_TILED_MAPS/tmxs/Map_v1.tmx")
     tile_width = tmx_data.tilewidth
     tile_height = tmx_data.tileheight
 except Exception as e:

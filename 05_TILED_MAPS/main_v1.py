@@ -36,7 +36,7 @@ def draw_map(surface, tmx_data):
 # Načítanie dát (predpokladajme súbor 'mapa.tmx')
 # Skús si vytvoriť jednoduchú mapu v programe Tiled
 try:
-    tmx_data = load_map(".\\05_TILED_MAPS\\tmxs\\Map_v1.tmx")
+    tmx_data = load_map("PyGameTUTORIAL/05_TILED_MAPS/tmxs/Map_v1.tmx")
 except Exception as e:
     print(f"Chyba pri načítaní mapy: {e}")
     tmx_data = None
